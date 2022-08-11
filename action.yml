@@ -16,6 +16,7 @@ inputs:
     description: 'actions/checkout path'
   token:
     description: 'actions/checkout token'
+    default: ${{ github.token }}
   repository:
     description: 'actions/checkout repository'
   submodules:
